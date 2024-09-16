@@ -5,6 +5,10 @@ h1 {
   text-align: center;
   font-size: 50px;
 }
+span {
+  color: #c4020d;
+  font-weight: 800;
+}
 button {
   display: block;
   margin-inline: auto;
@@ -13,26 +17,33 @@ button {
   font-size: 30px;
   font-weight: 600;
   cursor: pointer;
-  background-color: #61e443;
+  background-color: #f5d0a1;
   color: #fff;
 }
 button:hover {
-  background-color: #46bb4b;
+  color: #c4020d;
+  box-shadow: 0 8px 20px 1px black;
+  font-size: 32px;
 }
 
 .container {
   margin-top: 50px;
   margin-inline: 30px;
 }
-.number-box {
-  display: inline-block;
-  width: 70px;
-  height: 70px;
-  border: 1px solid black;
-  border-radius: 50%;
-  margin: 10px;
+
+/*-- Modifying Script css--*/
+table {
+  width: 80%;
+  border: 5px solid black;
+  margin-inline: auto;
   text-align: center;
 }
-h3 {
-  font-size: 25px;
+td {
+  border: 3px solid red;
+  padding: 15px;
+  font-size: 30px;
+  font-weight: 900;
+  color: #c4020d;
+  background-color: #f5d0a1;
+  position: relative;
 }
